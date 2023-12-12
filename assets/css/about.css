@@ -1,0 +1,58 @@
+/* contenuto della pagina */
+section .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 40px;
+}
+
+/* social */
+.social {
+    text-align: center;
+    font-size: 40px;
+    padding: 6px 12px;
+}
+.social li {
+    display: inline-block;
+    margin: 0 auto;
+}
+/* presentazione */
+.about {
+    text-align: justify;
+    padding: 20px;
+}
+.about h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+}
+.about p {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.about h2 {
+    font-size: 36px;
+}
+.about p,
+section .container {
+    margin-bottom: 30px;
+}
+.about a:hover {
+    text-decoration: underline;
+}
+.social li a i:hover {
+    color: rgb(255, 230, 0);
+    transition: 0.5s;
+}
+/* spacer */
+.spacer {
+    height: 200px;
+}
+/* media query */
+@media (min-width: 350px) {
+    .social li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,23 @@
+/* contenuto della pagina */
+section .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.about p {
+    font-size: 40px;
+}
+
+/* rocket */
+.bxs-rocket {
+    color:#ffe600;
+}
+
+/* paragrafo e social */
+.social li {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.about p:last-child {
+    margin-bottom: 50px;
+}

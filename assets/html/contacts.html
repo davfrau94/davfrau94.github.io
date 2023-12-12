@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Davide Frau | Contattami</title>
+            <meta name="description" content="Sono Davide Frau, ti presento la mia pagina web">
+            <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+        
+            <!-- Open Graph -->
+            <meta property="og:title" content="Davide Frau | Web Developer"/>
+            <meta property="og:url" content="https://davfrau94.github.io"/>
+            <meta property="og:description" content="Ti presento la mia pagina web"/>
+        
+            <!-- Link CSS -->
+            <link rel="stylesheet" href="/assets/css/style.css">
+            <link rel="stylesheet" href="/assets/css/contacts.css">
+            
+            <!-- Font Google e Boxicons-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap" rel="stylesheet">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        </head>
+<body>
+    
+    <!-- navbar -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="check-btn">
+            <i class='bx bx-menu bx-flashing'></i>
+        </label>
+        <label class="logo"><a href="/index.html">Davide.</a></label>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="projects.html">Progetti</a></li>
+            <li><a href="about.html">Chi sono</a></li>
+            <li><a class="active" href="contacts.html">Contatti</a></li>
+        </ul>
+    </nav>
+
+    <!-- contenuto della pagina - CONTATTI -->
+    <div class="form-container">
+        <main class="form-header">
+            <h1>Contatti</h1>
+
+            <!-- link ai social -->
+            <ul class="social">
+                <li><a href="https://github.com/davfrau94" target="_blank"><i class='bx bxl-github'></i></a></li>
+
+                <li><a href="https://www.linkedin.com/in/davide-frau-b79b84296/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+
+                <li><a href="https://www.instagram.com/dav_frau/?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram-alt'></i></a></li>
+            </ul>
+
+            <p>Se stai visitando questa pagina, significa che hai qualcosa da dirmi. Se vuoi mandarmi un'email compila il seguente form. Grazie mille!</p>
+        </main>
+
+        <!-- form -->
+        <form action="https://formspree.io/f/mnqkkvaj" method="post" class="form">
+            <div class="form-row">
+                <label for="name">Nome</label>
+                <input id="name" name="name" type="text" required placeholder="Inserisci il tuo nome">
+            </div>
+            <div class="form-row">
+                <label for="surname">Cognome</label>
+                <input id="surname" name="surname" type="text" required placeholder="Inserisci il tuo cognome">
+            </div>
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email"
+                       type="email" required
+                       placeholder="Inserisci la tua email">
+            </div>
+            <div class="form-row">
+                <label for="textarea">Messaggio</label>
+                <textarea id="textarea" name="textarea" required></textarea>
+            </div>
+            <div class="form-row">
+                <button>Invia</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
