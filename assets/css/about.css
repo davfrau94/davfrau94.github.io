@@ -53,6 +53,6 @@ section .container {
 @media (min-width: 350px) {
     .social li {
         display: inline-block;
-        margin: 0 10px;
+        margin: 0 5px;
     }
 }
